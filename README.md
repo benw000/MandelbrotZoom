@@ -31,13 +31,13 @@ Small project to visualise and zoom into the mandelbrot set.
 
 ### Mandlebrot set definition:
 
-The subset of complex numbers $c$ in the complex plane, such that the function:
-$$
-f_{c}(z) = z^2 + c
-$$
-does not diverge to infinity, when $f$ is iterated, from initial condition $z$.
+The subset of complex numbers `c` in the complex plane, such that the function:
 
-ie, the sequence $ (f_c(0), \ f_c(f_c(0)), \ f_c^3(0), \ ... )$ remains bounded in absolute value.
+`f_c(z) = z^2 + c`
+
+does not diverge to infinity when `f` is iterated from the initial condition `z=0+0i`.
+
+In other words, the sequence `f_c(0), f_c(f_c(0)), f_c^3(0), ...` remains bounded in absolute value.
 
 
 Find out more about this incredible set: 
