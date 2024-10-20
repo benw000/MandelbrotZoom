@@ -7,8 +7,25 @@ Small project to visualise and zoom into the mandelbrot set.
 
 ![seahorse](https://github.com/benw000/MandelbrotZoom/blob/main/demo_vids/seahorse.gif)
 
-Run this: \
- ```python mandelbrot_render.py --focus_real -0.75 --focus_imag 0.1 --mp4_name seahorse ```
+^ Run this: \
+ ```python mandelbrot_render.py --search_depth 50 --focus_real -0.75 --focus_imag 0.1 --mp4_name seahorse```
+
+![elephant](https://github.com/benw000/MandelbrotZoom/blob/main/demo_vids/elephant.gif)
+
+^ Run this: \
+```python mandelbrot_render.py --search_depth 50 --focus_real 0.28 --focus_imag 0.01 --mp4_name elephant```
+
+
+![minibrot](https://github.com/benw000/MandelbrotZoom/blob/main/demo_vids/minibrot.gif)
+
+^ Run this: \
+```python mandelbrot_render.py --search_depth 50 --focus_real -1.25 --focus_imag 0 --mp4_name minibrot```
+
+
+![antenna](https://github.com/benw000/MandelbrotZoom/blob/main/demo_vids/antenna.gif)
+
+^ Run this: \
+```python mandelbrot_render.py --search_depth 50 --focus_real -0.1566 --focus_imag 1.0323 --mp4_name antenna ```
 
 ---
 
@@ -44,7 +61,7 @@ We zoom in on a specific complex point that the user can define, by changing the
 
 ---
 
-### Files:
+#### Files:
 
 - mandelbrot_render.py: \
     Main python script containing code needed to produce render. Zooms in on a specific complex number focus point. \
